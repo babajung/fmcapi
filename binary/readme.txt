@@ -1,3 +1,13 @@
+======================================== Objects csv file example ===================================
+
+name,value,type,description
+zTEMP01,1.1.1.0/24,network,test object network
+zTEMP02,2.2.2.2,host,test object host
+zTEMP03,3.3.3.1-3.3.3.254,range,test object range
+zTEMP04,www.example.com,fqdn,test object fqdn
+
+======================================== HELP COMMAND LINE ==========================================
+
 (py3-venv) D:\>create_objects_v7.exe -h
 usage: create_objects_v7.exe [-h] [-v] [-t]
 
